@@ -1,0 +1,82 @@
+ul
+{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	font-family: courier;
+}
+
+li
+{
+	float: left;
+}
+
+li a 
+{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover 
+{
+	background-color: #1155cc;
+}
+
+.home 
+{
+	background-color: #003399;
+}
+ 
+
+body
+{
+	font-family: Courier New;
+	text-align: justify;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-image: url("bg.jpg");
+	background-attachment: fixed;
+}
+
+h1 
+{
+	font-family: matura mt script capitals; 
+	color: #000066;
+	font-size: 80px; 
+	text-align: center;
+	id="Top";
+}
+
+h2 
+{
+	font-family: fawn script; 
+	color: #6666ff;
+	font-size: 65px;
+	text-align: center;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a 
+{
+  text-decoration: none;
+}
+
+#arrow 
+{
+  position: fixed;
+  right: 110px;
+  bottom: 20px;
+}
+
